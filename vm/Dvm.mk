@@ -25,7 +25,7 @@
 # Compiler defines.
 #
 LOCAL_CFLAGS += -fstrict-aliasing -Wstrict-aliasing=2 -fno-align-jumps
-LOCAL_CFLAGS += -Wall -Wextra -Wno-unused-parameter
+LOCAL_CFLAGS += -Wall -Wextra -Wno-unused-parameter -Wno-unused-but-set-variable
 LOCAL_CFLAGS += -DARCH_VARIANT=\"$(dvm_arch_variant)\"
 
 #
